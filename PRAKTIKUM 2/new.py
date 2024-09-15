@@ -1,0 +1,11 @@
+x = ['apel','banana']
+nama = input('ketik/masukkan nama anda: ')
+print('banana'in x)
+print('cherry'in x)
+print('cherry'not in x)
+print('nama anda ketika sudah di perkecil:' +nama.lower())
+print('cherry'not in nama)
+print('B'in nama)
+print('b'in nama)
+print('m'not in nama)
+print('M'not in nama)
