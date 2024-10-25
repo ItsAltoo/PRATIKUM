@@ -15,21 +15,25 @@ while True:
     if pilihan == "1":
         pilihan = "Kangkung"
         belanjaan.append(pilihan)
+        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
         print(f"pilihan {pilihan} anda telah di tambahkan")
         
     elif pilihan == "2":
         pilihan = "Sabun"
         belanjaan.append(pilihan)
+        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
         print(f"pilihan {pilihan} anda telah di tambahkan")
         
     elif pilihan == "3":
         pilihan = "Baju"
         belanjaan.append(pilihan)
+        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
         print(f"pilihan {pilihan} anda telah di tambahkan")
     
     elif pilihan == "4":
         pilihan = "Biskuit"
         belanjaan.append(pilihan)
+        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
         print(f"pilihan {pilihan} anda telah di tambahkan")
         
     elif pilihan == "5":
@@ -40,4 +44,5 @@ while True:
         print("Program telah di hentikan")
         break
     else:
+        print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
         print("pilihan hanya 1-5")
