@@ -1,5 +1,27 @@
+# Document files
 *.docx
 *.pdf
+*.doc
+
+# Image files
 *.png
 *.jpg
 *.jpeg
+*.gif
+*.bmp
+*.svg
+
+# Video files
+*.mp4
+*.avi
+*.mov
+
+# Archive files
+*.zip
+*.rar
+
+# IDE files
+.vscode/
+.idea/
+__pycache__/
+*.pyc
