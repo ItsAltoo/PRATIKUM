@@ -1,0 +1,11 @@
+Jelaskan, menurut Anda, apa yang akan terjadi jika Anda mencoba menjalankan
+file models/kontak.py secara langsung? Mengapa tidak ada output yang terlihat?
+
+Jawaban:
+Jika saya mencoba menjalankan file models/kontak.py secara langsung, output tidak terlihat karena di dalam code tersebut tidak ada perintah untuk mencetak atau menampilkan sesuatu ke layar.
+
+
+Bagaimana jika saya melakukan print yang sama persis seperti di main.py tetapi tanpa if __name__ == "__main__":? Apa yang akan terjadi?
+
+Jawaban:
+Jika saya menjalankan file tersebut "python main.py" maka file yang diimpor (models/kontak.py) akan dieksekusi, dan jika ada perintah print di dalamnya, maka output dari perintah print tersebut akan ditampilkan di layar. Hal ini terjadi karena saat file diimpor, seluruh kode di dalamnya dieksekusi, termasuk perintah print. Sehingga output yang dihasilkan akan menjadi double
