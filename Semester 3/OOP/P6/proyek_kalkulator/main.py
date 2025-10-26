@@ -1,5 +1,5 @@
-from bangun_datar.lingkaran import Lingkaran
-from bangun_datar.persegi import Persegi
+from library.bangun_datar.lingkaran import Lingkaran
+from library.bangun_datar.persegi import Persegi
 
 if __name__ == "__main__":
     print("--- Menghitung Luas Bangun Datar (versi modular) ---")
