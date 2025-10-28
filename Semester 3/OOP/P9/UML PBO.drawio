@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Halaman-1" id="TVx7QF_e4DJ8Y7oO2fCk">
+    <mxGraphModel dx="2491" dy="1329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#ffffff, #f5f0f0)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gZOskbyWoZk3yp97B-BB-1" value="ProdukMakanan" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="50" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZOskbyWoZk3yp97B-BB-2" value="&lt;div&gt;- tanggal_kadaluarsa: int&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="80" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZOskbyWoZk3yp97B-BB-3" value="&lt;div&gt;+ tampilkan_info(): string&lt;/div&gt;&lt;div&gt;+ ubah_tanggal_kadaluarsa():&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="120" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZOskbyWoZk3yp97B-BB-4" value="ProdukMinuman" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="529" y="50" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZOskbyWoZk3yp97B-BB-5" value="&lt;div&gt;- kadar_gula: int&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="529" y="80" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZOskbyWoZk3yp97B-BB-6" value="&lt;div&gt;+ tampilkan_info(): string&lt;/div&gt;&lt;div&gt;+ ubah_kadar_gula():&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="529" y="120" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZOskbyWoZk3yp97B-BB-7" value="Transaksi" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="290" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZOskbyWoZk3yp97B-BB-8" value="&lt;div&gt;+ produk: string&lt;/div&gt;&lt;div&gt;+ jumlah: int&lt;/div&gt;&lt;div&gt;+ waktu: int&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="320" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZOskbyWoZk3yp97B-BB-9" value="+ proses_transaksi(): string" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="360" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZOskbyWoZk3yp97B-BB-14" value="Produk" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="800" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZOskbyWoZk3yp97B-BB-15" value="&lt;div&gt;- nama: string&lt;/div&gt;&lt;div&gt;- harga: int&lt;/div&gt;&lt;div&gt;- stok: int&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="830" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gZOskbyWoZk3yp97B-BB-16" value="&lt;div&gt;+ kurangi_stok(): int&lt;/div&gt;&lt;div&gt;+ tambah_stok(): int&lt;/div&gt;&lt;div&gt;+ tampilkan_info(): string&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="880" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gZOskbyWoZk3yp97B-BB-17" value="ProdukMakanan" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="1020" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZOskbyWoZk3yp97B-BB-18" value="&lt;div&gt;- tanggal_kadaluarsa: int&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="1050" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZOskbyWoZk3yp97B-BB-19" value="&lt;div&gt;+ tampilkan_info(): string&lt;/div&gt;&lt;div&gt;+ ubah_tanggal_kadaluarsa():&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="1090" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZOskbyWoZk3yp97B-BB-20" value="ProdukMinuman" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="1020" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZOskbyWoZk3yp97B-BB-21" value="&lt;div&gt;- kadar_gula: int&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="1050" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gZOskbyWoZk3yp97B-BB-22" value="&lt;div&gt;+ tampilkan_info(): string&lt;/div&gt;&lt;div&gt;+ ubah_kadar_gula():&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="1090" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gZOskbyWoZk3yp97B-BB-25" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#000000);" parent="1" source="gZOskbyWoZk3yp97B-BB-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="1000" as="sourcePoint" />
+            <mxPoint x="200" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZOskbyWoZk3yp97B-BB-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.566;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000,#090909);" parent="1" source="gZOskbyWoZk3yp97B-BB-20" target="gZOskbyWoZk3yp97B-BB-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="1020" as="sourcePoint" />
+            <mxPoint x="200" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IOGxHW5SF3AMh0xo3jkg-5" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);exitX=0.532;exitY=0.013;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gZOskbyWoZk3yp97B-BB-7" target="gZOskbyWoZk3yp97B-BB-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="280" as="sourcePoint" />
+            <mxPoint x="520" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IOGxHW5SF3AMh0xo3jkg-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);" edge="1" parent="1" target="gZOskbyWoZk3yp97B-BB-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="260" as="sourcePoint" />
+            <mxPoint x="590" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
