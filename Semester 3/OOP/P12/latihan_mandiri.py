@@ -3,6 +3,12 @@ from dataclasses import dataclass
 from typing import List
 import logging
 
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(name)s - %(message)s"
+)
+
+LOGER = logging.getLogger("Checkout")
+
 
 # Data Mahasiswa Dummy
 @dataclass
@@ -14,13 +20,6 @@ class Mahasiswa:
     ipk: float
     prasyarat_lulus: bool
     jadwal_aman: bool
-
-
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(name)s - %(message)s"
-)
-
-LOGER = logging.getLogger("Checkout")
 
 
 # ==========================================
