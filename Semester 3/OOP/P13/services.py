@@ -20,6 +20,10 @@ class CashPayment(IPaymentProcessor):
         LOGGER.info(f"Menerima TUNAI sejumlah: Rp{amount:,.0f}")
         return True
 
+class DebitCardPayment(IPaymentProcessor):
+    def process(self, amount: float) -> bool:
+        LOGGER.info(f"Menerima DEBIT CARD sejumlah: Rp{amount:,.0f}")
+        return True
 
 # --- SERVICE KERANJANG BELANJA (Logika Inti Bisnis) ---
 class ShoppingCart:
